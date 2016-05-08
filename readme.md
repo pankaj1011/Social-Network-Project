@@ -1,5 +1,7 @@
 # Laravel PHP Framework
 
+This is a social networking application developed using Laravel framework and bootstrap. A human user can signup and signin; and can add his/her pet dog in the social network. An individual page is created for every dog where users can like and post comments. The dog owner can edit and delete posts and page.
+
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
