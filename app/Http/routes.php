@@ -17,10 +17,6 @@ Route::get('/', function() {
 })->name('welcome');
 
 
-Route::get('about', function() {
-	return view('about')->with('number_of_dogs', 9000);
-});
-
 Route::get('dogs', ['as' => 'dogs','middleware'=>'auth', function() {
 	$dogs = Dog\Dog::all();
 	return view('dogs.index')->with('dogs', $dogs);
